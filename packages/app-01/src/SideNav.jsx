@@ -60,6 +60,9 @@ export default function SideNav() {
         <ListItem button component={Link} to="/dialog">
           <ListItemText primary="Dialog" />
         </ListItem>
+        <ListItem button component={Link} to="/svelte">
+          <ListItemText primary="Svelte Page" />
+        </ListItem>
         <ListItem button component={Link} to="/routing/foo">
           <ListItemText primary="Routing" />
         </ListItem>
@@ -72,6 +75,9 @@ export default function SideNav() {
         </ListItem>
         <ListItem button component="a" href="http://localhost:3003">
           <ListItemText primary="App #3" secondary="http://localhost:3003" />
+        </ListItem>
+        <ListItem button component="a" href="http://localhost:3004">
+          <ListItemText primary="App #4" secondary="http://localhost:3004" />
         </ListItem>
       </List>
     </Drawer>
